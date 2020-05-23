@@ -3,9 +3,9 @@
 Install Go
 
 ```
-wget https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.3.linux-amd64.tar.gz
 
-sudo tar -C /usr/local -xzf go1.12.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.14.3.linux-amd64.tar.gz
 export GOPATH="/home/vagrant/go"
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 ```
@@ -21,7 +21,7 @@ go get -v -u k8s.io/test-infra/kubetest
 ## Extract the Version
 
 ```
-kubetest --extract=v1.13.0
+kubetest --extract=v1.18.3
 
 cd kubernetes
 
